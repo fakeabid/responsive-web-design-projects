@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  margin: 1vw auto 0;
+  color: white;
+}
+
+ #description {
+  text-align: center;
+  margin: 1vw 0 2vw 0;
+  color: white;
+ }
+
+body {
+  width:  100%;
+  margin: 5vw auto auto auto;
+  font-family: Calibri;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ), url(https://i0.wp.com/w0.peakpx.com/wallpaper/873/768/HD-wallpaper-rain-drops-rainy-water-galaxy-season.jpg?ssl=1);
+  background-size: cover;
+  background-position-y: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 50px auto;
+}
+
+fieldset {
+  padding: 1em 2em;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.subnote{
+  display: inline;
+  font-size: 12px
+}
+
+.option {
+  width: unset;
+  margin: 0 0.5em 0 0; /* t r b l */
+  vertical-align: middle;
+}
+
+input, select {
+  width: 100%;
+  height: 1.5em;
+}
+
+select {
+  width: 101.5%;
+  height: 1.85em;
+}
+
+textarea {
+  width: 100%;
+}
+
+#submit {
+  display: block;
+  margin: 1.5em auto;
+  width: 101.5%;
+  height: 2em;
+  background-color: rgb(87, 145, 87);
+  border: none;
+  color: #ffffff;
+}

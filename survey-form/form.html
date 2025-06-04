@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+  <fieldset>
+  <h1 id="title">freecodecamp survey</h1>
+  <p id="description">Thank you for volunteering!</p>
+
+  <label for="name" id="name-label">What is your name?</label>
+  <input id="name" name="name" type="text" placeholder="eg: John Doe" required/>
+  <label for="email" id="email-label">What is your electronic mail address?</label>
+  <input id="email" name="email" type="email" placeholder="eg: johndoe@gmail.com" required/>
+  <label for="number" id="number-label">What is your age?</label>
+  <input id="number" name="number" type="number" min="13" max="80" placeholder="an age between 13 and 80 required" required/>
+  <label for="fav-book" id="fav-book-label">What is your favorite book?</label>
+  <select id="fav-book" name="fav-book" required>
+    <option value="">(select one)</option>
+    <option value="Harry Potter">Harry Potter</option>
+    <option value="Sherlock Holmes">Sherlock Holmes</option>
+    <option value="Marvel Comics">Marvel Comics</option>
+    <option value="Song of Ice and Fire">Song of Ice and Fire</option>
+    <option></option>
+  </select>
+  <label for="preference" id="preference-label">Do you prefer movies or books?</label>
+  <input class="option" id="movies" type="radio" name="preference" value="movies" checked/>Movies
+  <br>
+  <input class="option" id="books" type="radio" name="preference" value="books"/>Books
+  <label for="genre" id="genre-label">What genres are you interested in?<p class="subnote"> (Check all that apply)</p></label>
+  <input class="option" id="adventure" type="checkbox" name="genre" value="adventure">Adventure
+  <br>
+  <input class="option" id="fantasy" type="checkbox" name="genre" value="fantasy">Fantasy
+  <br>
+  <input class="option" id="drama" type="checkbox" name="genre" value="drama">Drama
+  <br>
+  <input class="option" id="horror" type="checkbox" name="genre" value="horror">Horror
+  <br>
+  <input class="option" id="young-adult" type="checkbox" name="genre" value="young-adult">Young Adult
+  <br>
+  <label for="note" id="note-label">How would you describe your ideal book to be?</label>
+  <textarea id="note" name="note" rows="3" cols="30" placeholder="I like adventure or sci-fi..."></textarea>
+  <input id="submit" type="submit" value="Submit"/>
+  </fieldset>
+  </form>
+</body>
+</html>
